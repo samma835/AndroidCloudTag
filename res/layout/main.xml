@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:layout_height="fill_parent" >
 
-    <Button
-        android:id="@+id/button1"
+    <com.socogame.cloudtag.CloudTagManager
+        android:id="@+id/keywordsFlow"
+        android:layout_width="fill_parent"
+        android:layout_height="400dip"
+        android:background="#ffffff" >
+    </com.socogame.cloudtag.CloudTagManager>
+
+    <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="刷新" >
-    </Button>
+        android:layout_alignParentBottom="true" >
 
-    <AbsoluteLayout
-        android:id="@+id/absoluteLayout1"
-        android:layout_width="fill_parent"
-        android:layout_height="400dp"
-        android:background="#ffffff" >
-    </AbsoluteLayout>
+        <Button
+            android:id="@+id/btnIn"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="飞入" >
+        </Button>
 
-</LinearLayout>
+        <Button
+            android:id="@+id/btnOut"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="飞出" >
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>
