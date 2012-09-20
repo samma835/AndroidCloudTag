@@ -1,8 +1,6 @@
 package com.socogame.cloudtag;
 
 import android.app.Activity;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -10,10 +8,6 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-/**  
- * @author Sodino E-mail:sodinoopen@hotmail.com  
- * @version Time：2011-12-26 下午03:34:16  
- */
 public class CloudTagActivity extends Activity implements OnClickListener {
 	public static final String[] keywords = { "下雨啦", "墨迹天气", "豆瓣", "Diablo3",
 			"魔兽争霸", "Dota", "音乐", "崔健", "九月", "十二", "五月天", "夏天的故事", "我是一只大袋鼠",

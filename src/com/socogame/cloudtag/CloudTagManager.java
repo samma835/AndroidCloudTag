@@ -9,7 +9,6 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.text.TextUtils.TruncateAt;
 import android.util.AttributeSet;
-import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
@@ -27,9 +26,6 @@ import android.widget.TextView;
 /**  
  * 注意，出包时出混淆包，应在proguard.cfg中加入：<br/>  
  * -keep public class * extends Android.widget.FrameLayout<br/>  
- *   
- * @author Sodino E-mail:sodinoopen@hotmail.com  
- * @version Time：2011-12-26 下午03:34:16  
  */
 public class CloudTagManager extends FrameLayout implements
 		OnGlobalLayoutListener {
