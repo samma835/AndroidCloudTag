@@ -7,7 +7,7 @@
         android:id="@+id/keywordsFlow"
         android:layout_width="fill_parent"
         android:layout_height="400dip"
-        android:background="#ffffff" >
+        android:background="@drawable/state_bg_1" >
     </com.socogame.cloudtag.CloudTagManager>
 
     <LinearLayout
